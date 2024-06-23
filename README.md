@@ -28,6 +28,8 @@ python run.py --fields date,campaign,clicks
 ```
 This will fetch the CSV data, filter the specified fields, print the JSON result to the console, and save the JSON to '**output/data.json**'.
 
+In case if you need to change google drive url or modify output directory just move to '**refernces.py**' and modify certain thing.
+
 ## Project Structure
 ```bash
 windsor_ai_task/
