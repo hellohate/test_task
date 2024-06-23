@@ -50,7 +50,7 @@ windsor_ai_task/
 Running the following command:
 
 ```bash
-python run.py --fields date,campaign,clicks
+python run.py --fields date,campaign,spend
 ```
 Will produce a JSON output similar to:
 ```bash
@@ -59,12 +59,12 @@ Will produce a JSON output similar to:
         {
             "date": "2021-11-23",
             "campaign": "campaign1",
-            "clicks": 10
+            "spend": 10
         },
         {
             "date": "2021-11-24",
             "campaign": "campaign2",
-            "clicks": 20
+            "spend": 20
         }
     ]
 }
