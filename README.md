@@ -24,7 +24,7 @@ pip install -r requirements.txt
 
 Run the program with the specified fields as follows:
 ```python
-python run.py --fields date,campaign,clicks
+python run.py --fields date,spend
 ```
 This will fetch the CSV data, filter the specified fields, print the JSON result to the console, and save the JSON to '**output/data.json**'.
 
